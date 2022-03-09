@@ -6,8 +6,6 @@ env:
   FORCE_COLOR: 1
 
 jobs:
-  webhint:
-    name: Webhint
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
