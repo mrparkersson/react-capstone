@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 import './Navigation.css';
 
 const Navigation = () => (
@@ -7,7 +9,7 @@ const Navigation = () => (
     <ul className="flex justify-between container">
       <li>
         <NavLink to="/">
-          <i className="fa-solid fa-angle-left" />
+          <FontAwesomeIcon icon={faAngleLeft} />
         </NavLink>
       </li>
       <li>

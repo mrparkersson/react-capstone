@@ -1,9 +1,9 @@
 # React-Capstone
 
-> Add comments and likes to display page
-> Add tests to count for comments, likes and displaying items
-> Create HTML, CSS file
-> Create JavaScript file which manipulates the DOM; adding clicks to elements and adding fucntions to remove and item from the list
+> Fetch Covid API,
+> Map all data from API into ino components
+> Rendered out routes based on id
+> Display COVID cases about particular countries
 
 ## Built With
 
@@ -55,7 +55,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Inspiration: Microverse
+- Inspiration: Nelson Sakwa the author of the original design
 
 ## 📝 License
 
