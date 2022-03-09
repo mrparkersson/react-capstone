@@ -12,7 +12,7 @@
 
 ## Online live link
 
-[Visit project online](https://adornchoga.github.io/Javascript_Capstone/)
+[Video to my demonstration](https://drive.google.com/file/d/1kzy7Sief6KqaPxV7TzpF9YeZRSjuab61/view?usp=sharing)
 
 ## Getting Started
 
