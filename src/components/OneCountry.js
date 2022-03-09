@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import map from '../assets/images/icons8-map-160.png';
 import './OneCountry.css';
 
-function OneCountry({ name, today_confirmed }) {
+const OneCountry = ({ name, today_confirmed }) => {
   return (
     <NavLink to={`/${name}`}>
       <li className="card">
@@ -18,7 +18,7 @@ function OneCountry({ name, today_confirmed }) {
       </li>
     </NavLink>
   );
-}
+};
 
 OneCountry.propTypes = {
   name: PropTypes.string.isRequired,

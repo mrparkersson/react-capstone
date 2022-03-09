@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navigation.css';
 
-function Navigation() {
+const Navigation = () => {
   return (
     <header className="navbar bg-secondary">
       <ul className="flex justify-between container">
@@ -12,9 +12,7 @@ function Navigation() {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/">
-            Covid-19 Tracker
-          </NavLink>
+          <NavLink to="/">Covid-19 Tracker</NavLink>
         </li>
         <li>
           <i className="fa-solid fa-microphone" />
@@ -23,6 +21,6 @@ function Navigation() {
       </ul>
     </header>
   );
-}
+};
 
 export default Navigation;

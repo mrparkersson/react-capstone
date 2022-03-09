@@ -1,9 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function OneRegion({
-  name, todayConfirmed, todayDeaths, todayOpenCases, todayRecovered,
-}) {
+const OneRegion = ({
+  name,
+  todayConfirmed,
+  todayDeaths,
+  todayOpenCases,
+  todayRecovered,
+}) => {
   return (
     <li className="flex justify-between striped">
       <div className="region-name">
@@ -29,7 +33,7 @@ function OneRegion({
       </div>
     </li>
   );
-}
+};
 
 OneRegion.propTypes = {
   name: PropTypes.string.isRequired,
