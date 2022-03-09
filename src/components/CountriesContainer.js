@@ -11,9 +11,7 @@ const CountriesContainer = () => {
   const date = transformDate();
 
   const handleSearch = (e) => setSearchField(e.target.value.toLowerCase());
-  const filteredCountries = countries.filter((country) =>
-    country.id.includes(searchField)
-  );
+  const filteredCountries = countries.filter((country) => country.id.includes(searchField));
 
   return (
     <div>
@@ -27,7 +25,10 @@ const CountriesContainer = () => {
       </div>
       <div className="bg-secondary">
         <div className="flex container stats justify-between">
-          <h5 className="title-stats">Stats by country {date}</h5>
+          <h5 className="title-stats">
+            Stats by country
+            {date}
+          </h5>
           <input
             type="text"
             name="search"

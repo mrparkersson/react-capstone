@@ -76,7 +76,7 @@ const RegionsContainer = () => {
                 todayOpenCases={today_open_cases}
                 todayRecovered={today_recovered}
               />
-            )
+            ),
           )
         )}
       </ul>
