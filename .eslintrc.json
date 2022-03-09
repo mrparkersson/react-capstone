@@ -1,13 +1,13 @@
 {
   "env": {
-    "browser": true,
-    "es6": true,
-    "jest": true
+    "browser": false,
+    "es6": false,
+    "jest": false
   },
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": false
     },
     "ecmaVersion": 2018,
     "sourceType": "module"
@@ -20,8 +20,5 @@
     "import/no-unresolved": "off",
     "no-shadow": "off"
   },
-  "ignorePatterns": [
-    "dist/",
-    "build/"
-  ]
+  "ignorePatterns": ["dist/", "build/"]
 }
