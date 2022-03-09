@@ -20,7 +20,6 @@ function App() {
         <Route path="/:id" element={<RegionsContainer />} />
       </Routes>
     </div>
-
   );
 }
 
