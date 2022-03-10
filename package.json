@@ -12,6 +12,7 @@
     "hint": "^6.1.9",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
+    "react-app": "^1.1.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.2",
@@ -64,5 +65,17 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  }
+  },
+  "description": "> Fetch Covid API, > Map all data from API into ino components > Rendered out routes based on id > Display COVID cases about particular countries",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrparkersson/react-capstone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrparkersson/react-capstone/issues"
+  },
+  "homepage": "https://github.com/mrparkersson/react-capstone#readme"
 }
