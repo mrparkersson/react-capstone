@@ -33,6 +33,10 @@ To get a local copy up and running follow these simple example steps.
 
 [Visit Repo](https://github.com/mrparkersson/react-capstone)
 
+## Deployed Web site
+
+[visit live link](covidapireactapp.netlify.app)
+
 ## Download Repo
 
 [Download Repo](https://github.com/mrparkersson/react-capstone)
