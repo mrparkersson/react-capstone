@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/extensions
 import countriesReducer, { setCounrties } from '../redux/countries/countries';
 
 const initialState = [];

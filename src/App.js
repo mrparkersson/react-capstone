@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { getCountries } from './redux/countries/countries';
+// eslint-disable-next-line import/extensions
 import CountriesContainer from './components/CountriesContainer';
 import RegionsContainer from './components/RegionsContainer';
 import Navigation from './components/Navigation';
