@@ -2,6 +2,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+// eslint-disable-next-line import/extensions
 import { getCountries } from './redux/countries/countries';
 // eslint-disable-next-line import/extensions
 import CountriesContainer from './components/CountriesContainer';
