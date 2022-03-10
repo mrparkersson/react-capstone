@@ -35,7 +35,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Deployed Web site
 
-[visit live link](covidapireactapp.netlify.app)
+[visit live link](https://covidapireactapp.netlify.app)
 
 ## Download Repo
 
