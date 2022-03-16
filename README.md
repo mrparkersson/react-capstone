@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# React-Capstone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Fetch Covid API,
+> Map all data from API into ino components
+> Rendered out routes based on id
+> Display COVID cases about particular countries
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+-React-js
+-Redux
 
-### `npm start`
+## Online live link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Video to my demonstration](https://drive.google.com/file/d/1kzy7Sief6KqaPxV7TzpF9YeZRSjuab61/view?usp=sharing)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get a local copy up and running follow these simple example steps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Setup
 
-### `npm run build`
+To get a local copy up and running follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone the repository to your computer using git clone [Git Clone Url](https://github.com/mrparkersson/react-capstone)
+- Cd into the folder
+- Run `npm install` to install the project's dependencies;
+- Run `npm start` to open the website using webpack live server or
+  open dist/index.html with live server.
+- Or you can Fork it instead, and create a pull request to suggest some changes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Visit And Open Files
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Visit Repo](https://github.com/mrparkersson/react-capstone)
 
-### `npm run eject`
+## Deployed Web site
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[visit live link](https://covidapireactapp.netlify.app)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Download Repo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Download Repo](https://github.com/mrparkersson/react-capstone)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Authors
 
-## Learn More
+👤 **Amo Parker Prince**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- GitHub: [@githubhandle](https://github.com/mrparkersson)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
 
-### Code Splitting
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to check the [issues page](https://github.com/mrparkersson/react-capstone).
 
-### Analyzing the Bundle Size
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Give a ⭐️ if you like this project!
 
-### Making a Progressive Web App
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Inspiration: Nelson Sakwa the author of the original design
 
-### Advanced Configuration
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
